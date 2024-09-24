@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from pycocotools.coco import COCO
 import os
 
-coco = COCO("dataset/train_annotations.json")
-images_path = "dataset/train"
+coco = COCO("dataset/annotations/instances_val2017.json")
+images_path = "dataset/val2017"
 
 def vis_bbox(id):
     img_info = coco.imgs[id]
@@ -22,4 +22,4 @@ def vis_bbox(id):
     plt.imshow(img)
     plt.show()
 
-vis_bbox(130)
+vis_bbox(107)
