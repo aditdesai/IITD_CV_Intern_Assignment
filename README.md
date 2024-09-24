@@ -2,6 +2,8 @@
 
 This repo contains the code for the setup, validation, analysis and fine tuning of the DINO object detection model (https://github.com/IDEA-Research/DINO). Note that any changes made to the original code (config files) are visible in the fork of the original repo which you can find here: https://github.com/aditdesai/DINO
 
+Report can be found here: [IITD_CV_Intern_Report.pdf]()
+
 The code was run and tested on a Kaggle notebook with a P100 GPU.
 
 ## Run
@@ -17,3 +19,8 @@ python vis.py
 - For inference and visualization, a jupyter [notebook](eval-vis.ipynb) is provided.
 
 - For fine tuning, a jupyter [notebook](fine-tune.ipynb) is provided as well.
+
+
+## Loss plot
+
+![Loss plot](loss_plot.png)
