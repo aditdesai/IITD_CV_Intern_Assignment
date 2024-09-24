@@ -16,11 +16,11 @@ The code was run and tested on a Kaggle notebook with a P100 GPU.
 python vis.py
 ```
 
-- For inference and visualization, a jupyter [notebook](eval-vis.ipynb) is provided.
+- For inference and visualization, a jupyter [notebook](eval-vis.ipynb) is provided (Paths to model and dataset will need to be set manually)
 
-- For fine tuning, a jupyter [notebook](fine-tune.ipynb) is provided as well.
+- For fine tuning, a jupyter [notebook](fine-tune.ipynb) is provided as well (Paths to model and dataset will need to be set manually)
 
 
-## Loss plot
+## Results
 
-![Loss plot](loss_plot.png)
+Visualizations, analysis and loss plots can be found here in the report: [IITD_CV_Intern_Report.pdf](IITD_CV_Intern_Report.pdf)
