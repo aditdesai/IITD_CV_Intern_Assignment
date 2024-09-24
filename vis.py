@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 from pycocotools.coco import COCO
 import os
 
-coco = COCO("dataset/annotations/instances_val2017.json")
-images_path = "dataset/val2017"
+coco = COCO("dataset/annotations/instances_train2017.json")
+images_path = "dataset/train2017"
 
+# visualize ground truth bounding box
 def vis_bbox(id):
     img_info = coco.imgs[id]
     img_path = os.path.join(images_path, img_info['file_name'])
@@ -22,4 +23,4 @@ def vis_bbox(id):
     plt.imshow(img)
     plt.show()
 
-vis_bbox(107)
+vis_bbox(66)

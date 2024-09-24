@@ -7,13 +7,13 @@ The code was run and tested on a Kaggle notebook with a P100 GPU.
 ## Run
 
 - Download the pre-trained model weights used by me from here: https://drive.google.com/file/d/1AwUn5EebmmLBo7njjW_Ng1q9zDrqkNbB/view?usp=drive_link
-- Download the fine-tuned model weights from here: 
+- Download the fine-tuned model weights from here: https://drive.google.com/file/d/11iNP4Qc_A0ub43b-IoxLeFzRznZDjrKE/view?usp=sharing
 - Visualize the dataset with the ground truth boxes by running:
 
 ```sh
 python vis.py
 ```
 
-- For inference and visualization, a jupyter [notebook]() is provided.
+- For inference and visualization, a jupyter [notebook](eval-vis.ipynb) is provided.
 
-- For fine tuning, a jupyter [notebook]() is provided as well.
+- For fine tuning, a jupyter [notebook](fine-tune.ipynb) is provided as well.
